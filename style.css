@@ -1,1 +1,44 @@
-body
+
+
+
+.topnav {
+    
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: greenyellow;
+}
+
+.topnav ul{
+    /* background-color: azure; */
+    list-style-type: none;
+    font: bold;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.topnav ul li {
+display: inline;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+
+} 
+
+.topnav ul li a:hover {
+    background-color: red;
+    transition: ease 2s;
+}
